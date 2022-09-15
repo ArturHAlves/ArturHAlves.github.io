@@ -1,21 +1,23 @@
-body{
-    background-color: #ebe7e3;
+body {
+  background-color: #ebe7e3;
+}
+#nome-main {
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-#nome-main{
-    font-family:'Times New Roman', Times, serif
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#endereco {
+  color: rgb(112, 112, 112);
+  font-size: 18px;
 }
 
-#lista-competencias{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+#lista-competencias {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
