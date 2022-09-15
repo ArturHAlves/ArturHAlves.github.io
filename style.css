@@ -25,6 +25,12 @@ ul li,
   font-size: 18px;
 }
 
+/* Footer */
+#curiosidade{
+  text-decoration: underline;
+  color: rgb(95, 38, 38);
+}
+
 /* .lista-competencias {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 } */
