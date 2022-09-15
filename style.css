@@ -5,19 +5,26 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-h2 {
+#foto-perfil{
+  width: 200px;
+  border-radius: 10%;
+}
+
+h2, p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+a {
+  color: #414040;
+  text-decoration: none;
 }
 
-#endereco {
-  color: rgb(112, 112, 112);
+ul li,
+#endereco, .lista-competencias  {
+  color: rgb(51, 107, 124);
   font-size: 18px;
 }
 
-#lista-competencias {
+/* .lista-competencias {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+} */
