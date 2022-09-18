@@ -1,36 +1,24 @@
-body {
-  background-color: #ebe7e3;
-}
-#nome-main {
-  font-family: "Times New Roman", Times, serif;
+body{
+  padding: 0;
+  margin: 0;
 }
 
-#foto-perfil{
-  width: 200px;
-  border-radius: 10%;
+.header{
+  border: 2px solid red;
 }
 
-h2, p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+.header-title{
+  border: 2px solid red;
 }
 
-a {
-  color: #414040;
-  text-decoration: none;
+.header-main{
+  border: 2px solid blue;
 }
 
-ul li,
-#endereco, .lista-competencias  {
-  color: rgb(51, 107, 124);
-  font-size: 18px;
+.main-title{
+  border: 2px solid blue;
 }
 
-/* Footer */
-#curiosidade{
-  text-decoration: underline;
-  color: rgb(95, 38, 38);
+.main-content{
+  border: 2px solid burlywood;
 }
-
-/* .lista-competencias {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-} */
