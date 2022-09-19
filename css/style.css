@@ -1,0 +1,35 @@
+.header {
+  border: 2px solid red;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35%;
+}
+
+.header-title {
+  border: 2px solid red;
+}
+
+.header-main {
+  border: 2px solid blue;
+  box-sizing: border-box;
+  width: 65%;
+  margin-left: 35%;
+}
+
+.main-title {
+  border: 2px solid blue;
+  margin-left: 35%;
+}
+
+.main-content {
+  border: 2px solid burlywood;
+  margin-left: 35%;
+}
+
+.main-footer{
+  border: 2px solid green;
+  margin-left: 35%;
+}
