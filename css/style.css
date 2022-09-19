@@ -1,0 +1,92 @@
+body{
+  background-color: #eee;
+  color: #666;
+}
+
+p{ 
+  /* border: 2px solid yellow; */
+  font-size: 18px;
+
+}
+.header {
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35%;
+  background-image: url(/imagens/overlay.png), url(/imagens/bg.jpg);
+  background-position: left top;
+    background-size: auto, cover;
+}
+
+#img-header{
+  width: 200px;
+  border-radius: 50%;
+  margin: 30px 220px;
+}
+
+.header-title {
+  /* border: 2px solid red; */
+  font-size: 24px;
+  padding-right: 40px;
+  text-align: right;
+  color: rgba(255, 255, 255, .5);
+  font-size: 25px;
+}
+
+#header-endereco{
+  /* border: 2px solid purple; */
+  text-align: right;
+  margin-right: 40px;
+  color: rgba(255, 255, 255, .5);
+  font-size: 17px;
+
+}
+
+
+.header-main {
+  border: 2px solid blue;
+  box-sizing: border-box;
+  width: 65%;
+  margin-left: 35%;
+  padding: 30px 54px 30px;
+}
+
+.title-effect{
+  /* border: 2px solid red; */
+  color: #787878;
+  font-weight: normal;
+  font-size: 28px;
+
+}
+
+.title-sobre {
+  /* border: 2px solid rgb(52, 52, 158); */
+  margin-top: 50px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.header-content p{
+  /* border: #666 2px solid; */
+  margin: 0 0 70px;
+}
+
+.main-content {
+  border: 2px solid burlywood;
+  margin-left: 35%;
+  padding: 33px;
+}
+
+.main-footer{
+  border: 2px solid green;
+  margin-left: 35%;
+}
+
+/* .contato-footer{
+  border: 3px solid orange;
+  margin-left: 35%;
+
+} */

@@ -1,52 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
+  <title>Portfolio</title>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta name="author" content="Artur Henrique">
+    <meta name="Descrição" content="Portfolio, colocando em prática conceitos estudados">
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/334fe5a045.js" crossorigin="anonymous"></script>
 
   </head>
 
   <body>
-    
-    <h1><a id="nome-main">Artur Henrique Alves Almeida</a></h1>
-    
-    <img id="foto-perfil" src="/imagens/fotoPerfil.png" alt="foto de perfil" />
 
-    <p><strong>Estudante De Desenvolvimento Web Full Stack</strong></p>
-    <p id="endereco"><em>Belo Horizonte, Minas Gerais, Brasil </em></p>
 
-    <hr />
-    
-    <h2><a href="#">Sobre:</a></h2>
-     <p id="paragrafo-sobre">
-      Iniciei na área de Tecnologia como militar da Companhia de Comando da 4°
-      RM e logo após me ingressei no curso <br />Análise e Desenvolvimento de
-      Sistemas em 2021. <br />
-      <br />
-      Estou estudando desenvolvimento <strong>Front-End e Back-End</strong> , com a intenção de me
-      tornar um profissional na área.<br />
-      Atualmente comecei o curso na Trybe com foco no <strong> Desenvolvimento Full
-        Stack.</strong><br />
-    </p>
+    <!-- HEADER  -->
 
-    <hr />
-
-    <h2><a href="#">Competências:</a></h2>
-    
-    <ul class="lista-competencias">
-      <li>Trabalho em equipe</li>
-      <li>Inteligência emocional</li>
-      <li>Perseverança</li>
-      <li>Comunicação</li>
-    </ul>
-
-    <hr>
-
-    <h2><a href="#">Curiosidade:</a></h2>
+    <div class="header">
+     
+      <a href="index.html"></a>
+      <img src="/imagens/fotoPerfil.png" id="img-header" alt="Uma foto de perfil" />
   
-    <p>Minha banda favorita é: <a target="_blank" id="curiosidade"  href="https://www.ironmaiden.com/">Iron Maiden</p>
+      <h1 class="header-title">
+        Artur Henrique,<br>
+        Estudante De Desenvolvimento Web
+      </h1>
+     
+      <p id="header-endereco"><em>Belo Horizonte, Minas Gerais, Brasil </em></p>
+    </div>
+
+
+    <!-- CONTEUDO DA HEADER -->
+<div class="header-main">
+
+  <h2 class="title-effect">
+    "Qualidade significa fazer as coisas do jeito certo quando ninguém está olhando".
+  </h2>  
+  
+  <div class="header-content">
+    
+    <h3 class="title-sobre">
+      Sobre mim:
+      </h3>
+    
+         <p>
+     Iniciei na área de Tecnologia como militar da Companhia de Comando da 4°
+     RM e logo após me ingressei no curso: <br />Análise e Desenvolvimento de
+     Sistemas em 2021. <br />
+     <br />
+     Estou estudando desenvolvimento Front-End e Back-End, com a intenção de me
+     tornar um profissional na área.<br />
+     Atualmente comecei o curso na Trybe com foco no Desenvolvimento Full
+       Stack.<br />
+        </p>
+  </div>
+  
+
+</div>
+
+    <!-- CONTEÚDO DA HEADER  -->
+<div class="main-content">
+  <h2 class="main-title">
+    Competências:
+  </h2>
+    
+  <ul>
+    <li>Trabalho em equipe</li>
+    <li>Inteligência emocional</li>
+    <li>Perseverança</li>
+    <li>Comunicação</li>
+  </ul>
+
+</div>
+    
+<!-- RODAPE  -->
+<div class="main-footer">
+  <h2 class="footer-title">
+    Curiosidade:
+  </h2>
+  
+  <p>Minha banda favorita é: <a target="_blank" href="https://www.ironmaiden.com/">Iron Maiden</p>
+</div>
+
+<!-- <div class="contato-footer">
+
+  <ul lista-icons>
+<li><a href=""><i class="fa-brands fa-github"></i></a></li>
+<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+  </ul>
+
+</div> -->
+
 
     </body>
 </html>
