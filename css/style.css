@@ -1,7 +1,13 @@
 body{
   background-color: #eee;
+  color: #666;
 }
 
+p{ 
+  /* border: 2px solid yellow; */
+  font-size: 18px;
+
+}
 .header {
   /* border: 2px solid red; */
   box-sizing: border-box;
@@ -16,7 +22,7 @@ body{
 }
 
 #img-header{
-  width: 220px;
+  width: 200px;
   border-radius: 50%;
   margin: 30px 220px;
 }
@@ -39,30 +45,39 @@ body{
 
 }
 
-.icons-header{
-  box-sizing:border-box;
-  position: absolute;
-  top: 500px;
-  align-items: center;
-  
-}
-
 
 .header-main {
   border: 2px solid blue;
   box-sizing: border-box;
   width: 65%;
   margin-left: 35%;
+  padding: 30px 54px 30px;
 }
 
-.main-title {
-  border: 2px solid rgb(52, 52, 158);
-  margin-left: 35%;
+.title-effect{
+  /* border: 2px solid red; */
+  color: #787878;
+  font-weight: normal;
+  font-size: 28px;
+
+}
+
+.title-sobre {
+  /* border: 2px solid rgb(52, 52, 158); */
+  margin-top: 50px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.header-content p{
+  /* border: #666 2px solid; */
+  margin: 0 0 70px;
 }
 
 .main-content {
   border: 2px solid burlywood;
   margin-left: 35%;
+  padding: 33px;
 }
 
 .main-footer{
