@@ -4,16 +4,16 @@ body{
 }
 
 p{ 
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   font-size: 18px;
 
 }
 header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   box-sizing: border-box;
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   height: 100%;
   width: 35%;
   background-image: url(/imagens/overlay.png), url(/imagens/bg.jpg);
@@ -28,7 +28,7 @@ header {
 }
 
 .header-title {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   font-size: 24px;
   padding-right: 40px;
   text-align: right;
@@ -37,7 +37,7 @@ header {
 }
 
 #header-address{
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   text-align: right;
   margin-right: 40px;
   color: rgba(255, 255, 255, .5);
@@ -47,15 +47,15 @@ header {
 
 
 main {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   box-sizing: border-box;
   width: 65%;
   margin-left: 35%;
-  padding: 30px 54px 30px;
+  padding: 40px 54px 30px;
 }
 
 .title-effect{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: #787878;
   font-weight: normal;
   font-size: 28px;
@@ -63,7 +63,7 @@ main {
 }
 
 .title {
-  border: 2px solid rgb(52, 52, 158);
+  /* border: 2px solid rgb(52, 52, 158); */
   margin-top: 50px;
   font-size: 23px;
   font-weight: bold;
