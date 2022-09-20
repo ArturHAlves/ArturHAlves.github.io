@@ -8,12 +8,12 @@ p{
   font-size: 18px;
 
 }
-.header {
+header {
   /* border: 2px solid red; */
   box-sizing: border-box;
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   height: 100%;
   width: 35%;
   background-image: url(/imagens/overlay.png), url(/imagens/bg.jpg);
@@ -36,7 +36,7 @@ p{
   font-size: 25px;
 }
 
-#header-endereco{
+#header-address{
   /* border: 2px solid purple; */
   text-align: right;
   margin-right: 40px;
@@ -46,12 +46,12 @@ p{
 }
 
 
-.header-main {
-  border: 2px solid blue;
+main {
+  /* border: 2px solid blue; */
   box-sizing: border-box;
   width: 65%;
   margin-left: 35%;
-  padding: 30px 54px 30px;
+  padding: 40px 54px 30px;
 }
 
 .title-effect{
@@ -62,7 +62,7 @@ p{
 
 }
 
-.title-sobre {
+.title {
   /* border: 2px solid rgb(52, 52, 158); */
   margin-top: 50px;
   font-size: 23px;
@@ -79,14 +79,3 @@ p{
   margin-left: 35%;
   padding: 33px;
 }
-
-.main-footer{
-  border: 2px solid green;
-  margin-left: 35%;
-}
-
-/* .contato-footer{
-  border: 3px solid orange;
-  margin-left: 35%;
-
-} */
