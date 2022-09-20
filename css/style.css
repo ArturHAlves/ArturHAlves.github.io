@@ -4,12 +4,12 @@ body{
 }
 
 p{ 
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   font-size: 18px;
 
 }
-.header {
-  /* border: 2px solid red; */
+header {
+  border: 2px solid red;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ p{
 }
 
 .header-title {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   font-size: 24px;
   padding-right: 40px;
   text-align: right;
@@ -36,8 +36,8 @@ p{
   font-size: 25px;
 }
 
-#header-endereco{
-  /* border: 2px solid purple; */
+#header-address{
+  border: 2px solid purple;
   text-align: right;
   margin-right: 40px;
   color: rgba(255, 255, 255, .5);
@@ -46,7 +46,7 @@ p{
 }
 
 
-.header-main {
+main {
   border: 2px solid blue;
   box-sizing: border-box;
   width: 65%;
@@ -55,15 +55,15 @@ p{
 }
 
 .title-effect{
-  /* border: 2px solid red; */
+  border: 2px solid red;
   color: #787878;
   font-weight: normal;
   font-size: 28px;
 
 }
 
-.title-sobre {
-  /* border: 2px solid rgb(52, 52, 158); */
+.title {
+  border: 2px solid rgb(52, 52, 158);
   margin-top: 50px;
   font-size: 23px;
   font-weight: bold;
@@ -79,14 +79,3 @@ p{
   margin-left: 35%;
   padding: 33px;
 }
-
-.main-footer{
-  border: 2px solid green;
-  margin-left: 35%;
-}
-
-/* .contato-footer{
-  border: 3px solid orange;
-  margin-left: 35%;
-
-} */
