@@ -67,7 +67,32 @@ main {
 
 ul {
   /* border: 2px solid red; */
+  color: rgb(65, 112, 95);
   display: inline-block;
   margin-left: 22px;
-  font-size: 17px;
+  font-size: 18px;
 }
+
+.main-footer {
+  border: 2px solid red;
+  position: fixed;
+  bottom: 0px;
+  border: 0;
+  width: 35%;
+  left: 0;
+  padding: 0 54px 72px 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.main-footer .lista-icons, a {
+  /* border: 2px solid green; */
+  color: #666;
+  /* border: none; */
+  padding: 3px;
+  font-size: 27px;
+  display: inline-block;
+  font-size: 27px;
+  margin: 4px;
+}
+
