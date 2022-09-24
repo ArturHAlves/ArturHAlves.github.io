@@ -1,12 +1,11 @@
-body{
+body {
   background-color: #eee;
   color: #666;
 }
 
-p{ 
+p {
   /* border: 2px solid yellow; */
   font-size: 18px;
-
 }
 header {
   /* border: 2px solid red; */
@@ -18,10 +17,10 @@ header {
   width: 35%;
   background-image: url(/imagens/overlay.png), url(/imagens/bg.jpg);
   background-position: left top;
-    background-size: auto, cover;
+  background-size: auto, cover;
 }
 
-#img-header{
+#img-header {
   width: 200px;
   border-radius: 50%;
   margin: 30px 220px;
@@ -32,19 +31,17 @@ header {
   font-size: 24px;
   padding-right: 40px;
   text-align: right;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 25px;
 }
 
-#header-address{
+#header-address {
   /* border: 2px solid purple; */
   text-align: right;
   margin-right: 40px;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 17px;
-
 }
-
 
 main {
   /* border: 2px solid blue; */
@@ -54,12 +51,11 @@ main {
   padding: 40px 54px 30px;
 }
 
-.title-effect{
+.title-effect {
   /* border: 2px solid red; */
   color: #787878;
   font-weight: normal;
   font-size: 28px;
-
 }
 
 .title {
@@ -69,13 +65,9 @@ main {
   font-weight: bold;
 }
 
-.header-content p{
-  /* border: #666 2px solid; */
-  margin: 0 0 70px;
-}
-
-.main-content {
-  border: 2px solid burlywood;
-  margin-left: 35%;
-  padding: 33px;
+ul {
+  /* border: 2px solid red; */
+  display: inline-block;
+  margin-left: 22px;
+  font-size: 17px;
 }
