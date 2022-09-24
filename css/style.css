@@ -90,7 +90,9 @@ ul {
   color: #666;
   /* border: none; */
   padding: 3px;
-  font-size: 22px;
+  font-size: 27px;
   display: inline-block;
-  font-size: 25px;
+  font-size: 27px;
+  margin: 4px;
 }
+
